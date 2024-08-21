@@ -26,7 +26,7 @@ const User = () => {
         setSelectedBike(bike);
         setTimeRemaining(bikeTimes[bike] * 60);
         setIsCountdownActive(true);
-
+        // countdown (like stopwatch)
         if (timerRef.current) {
             clearInterval(timerRef.current);
         }

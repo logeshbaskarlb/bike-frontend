@@ -24,16 +24,11 @@ const Admin = () => {
         getData();
     }, []);
 
-    const tableStyle = {
-      borderCollapse: "collapse",
-      width: "100%",
-    }
     const style = {
       border: "1px solid black",
       paddingg : "10px",
     }
 
-    // Render the component
     return (
         <div>
             <h1>Bike Assembly Selections</h1>
@@ -63,8 +58,6 @@ const Admin = () => {
             )}
         </div>
     );
-};
-
+}
+;
 export default Admin;
-
-// add border for row and col

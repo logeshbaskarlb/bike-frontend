@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
+import Chart from "./Chart";
 
 const Admin = () => {
 
@@ -56,6 +57,11 @@ const Admin = () => {
                     </tbody>
                 </table>
             )}
+            <div>
+              <h2>Using line chart</h2>
+             <Chart />
+
+            </div>
         </div>
     );
 }

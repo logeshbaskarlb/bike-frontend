@@ -115,5 +115,4 @@ const User = () => {
 
 export default User;
 
-// the username should be what the username given in the login component
 
